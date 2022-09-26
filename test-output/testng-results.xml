@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="64" total="183" passed="91" failed="28" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T12:36:27 EEST" name="Calculator Full Test Suite" finished-at="2022-09-26T12:36:28 EEST" duration-ms="334">
+    <groups>
+      <group name="Square Root">
+        <method signature="SqrtTest.squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" name="squareRootTest" class="com.epam.calculator.tests.SqrtTest"/>
+      </group> <!-- Square Root -->
+      <group name="Trigonometric Functions">
+        <method signature="CosTest.cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" name="cosinusTest" class="com.epam.calculator.tests.CosTest"/>
+        <method signature="CtgTest.cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" name="cotangentTest" class="com.epam.calculator.tests.CtgTest"/>
+        <method signature="SinTest.cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" name="cosinusTest" class="com.epam.calculator.tests.SinTest"/>
+        <method signature="TgTest.tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" name="tangentTest" class="com.epam.calculator.tests.TgTest"/>
+      </group> <!-- Trigonometric Functions -->
+      <group name="Basic Math Operations">
+        <method signature="DivWithDoubleTest.divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" name="divWithDoubleTest" class="com.epam.calculator.tests.DivWithDoubleTest"/>
+        <method signature="DivWithLongTest.divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" name="divWithLongTest" class="com.epam.calculator.tests.DivWithLongTest"/>
+        <method signature="MultWithDoubleTest.multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" name="multWithDoubleTest" class="com.epam.calculator.tests.MultWithDoubleTest"/>
+        <method signature="MultWithLongTest.multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" name="multWithLongTest" class="com.epam.calculator.tests.MultWithLongTest"/>
+        <method signature="SubWithDoubleTest.subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" name="subWithDoubleTest" class="com.epam.calculator.tests.SubWithDoubleTest"/>
+        <method signature="SubWithLongTest.subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" name="subWithDoubleTest" class="com.epam.calculator.tests.SubWithLongTest"/>
+        <method signature="SumWithDoubleTest.sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" name="sumWithDoubleTest" class="com.epam.calculator.tests.SumWithDoubleTest"/>
+        <method signature="SumWithLongTest.sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" name="sumWithDoubleTest" class="com.epam.calculator.tests.SumWithLongTest"/>
+      </group> <!-- Basic Math Operations -->
+      <group name="Exponentiation">
+        <method signature="PowTest.powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" name="powerTest" class="com.epam.calculator.tests.PowTest"/>
+      </group> <!-- Exponentiation -->
+      <group name="Positive / Negative Boolean Methods">
+        <method signature="IsNegativeTest.isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" name="isNegativeTest" class="com.epam.calculator.tests.IsNegativeTest"/>
+        <method signature="IsPositiveTest.isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" name="isPositiveTest" class="com.epam.calculator.tests.IsPositiveTest"/>
+      </group> <!-- Positive / Negative Boolean Methods -->
+    </groups>
+    <test started-at="2022-09-26T12:36:27 EEST" name="Positive / Negative Boolean Method" finished-at="2022-09-26T12:36:27 EEST" duration-ms="79">
+      <class name="com.epam.calculator.tests.IsPositiveTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="isPositiveTest" data-provider="isNumberPositiveValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveTest -->
+        <test-method signature="isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="isPositiveTest" data-provider="isNumberPositiveValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="isPositiveTest" data-provider="isNumberPositiveValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to check if it is Positive: 0; expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to check if it is Positive: 0; expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at com.epam.calculator.tests.IsPositiveTest.isPositiveTest(IsPositiveTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="isPositiveTest" data-provider="isNumberPositiveValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isPositiveTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsPositiveTest@65b3f4a4]" started-at="2022-09-26T12:36:27 EEST" name="isPositiveTest" data-provider="isNumberPositiveValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveTest -->
+      </class> <!-- com.epam.calculator.tests.IsPositiveTest -->
+      <class name="com.epam.calculator.tests.IsNegativeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="isNegativeTest" data-provider="isNumberNegativeValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNegativeTest -->
+        <test-method signature="isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="isNegativeTest" data-provider="isNumberNegativeValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNegativeTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="isNegativeTest" data-provider="isNumberNegativeValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNegativeTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="isNegativeTest" data-provider="isNumberNegativeValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNegativeTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isNegativeTest(long, boolean)[pri:0, instance:com.epam.calculator.tests.IsNegativeTest@1018bde2]" started-at="2022-09-26T12:36:27 EEST" name="isNegativeTest" data-provider="isNumberNegativeValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNegativeTest -->
+      </class> <!-- com.epam.calculator.tests.IsNegativeTest -->
+    </test> <!-- Positive / Negative Boolean Method -->
+    <test started-at="2022-09-26T12:36:27 EEST" name="Exponentiation" finished-at="2022-09-26T12:36:27 EEST" duration-ms="29">
+      <class name="com.epam.calculator.tests.PowTest">
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65.28280246512092]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Base was 3.3, exponent was 3.5; did not expect to find [65.28280246512092] but found [35.937]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Base was 3.3, exponent was 3.5; did not expect to find [65.28280246512092] but found [35.937]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Base was -3.3, exponent was 3.5; did not expect to find [NaN] but found [-35.937]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Base was -3.3, exponent was 3.5; did not expect to find [NaN] but found [-35.937]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:637)
+at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.015317969851773392]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Base was 3.3, exponent was -3.5; did not expect to find [0.015317969851773392] but found [0.008432264881050257]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Base was 3.3, exponent was -3.5; did not expect to find [0.015317969851773392] but found [0.008432264881050257]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="powerTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.PowTest@6c779568]" started-at="2022-09-26T12:36:27 EEST" name="powerTest" data-provider="powerValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Base was -3.3, exponent was -3.5; did not expect to find [NaN] but found [0.008432264881050257]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Base was -3.3, exponent was -3.5; did not expect to find [NaN] but found [0.008432264881050257]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:637)
+at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerTest -->
+      </class> <!-- com.epam.calculator.tests.PowTest -->
+    </test> <!-- Exponentiation -->
+    <test started-at="2022-09-26T12:36:27 EEST" name="Square Root" finished-at="2022-09-26T12:36:27 EEST" duration-ms="11">
+      <class name="com.epam.calculator.tests.SqrtTest">
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -1.0; did not expect to find [NaN] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -1.0; did not expect to find [NaN] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:637)
+at com.epam.calculator.tests.SqrtTest.squareRootTest(SqrtTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="squareRootTest(double, double)[pri:0, instance:com.epam.calculator.tests.SqrtTest@524d6d96]" started-at="2022-09-26T12:36:27 EEST" name="squareRootTest" data-provider="squareRootValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.527692569068709]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRootTest -->
+      </class> <!-- com.epam.calculator.tests.SqrtTest -->
+    </test> <!-- Square Root -->
+    <test started-at="2022-09-26T12:36:27 EEST" name="Trigonometric Functions" finished-at="2022-09-26T12:36:27 EEST" duration-ms="26">
+      <class name="com.epam.calculator.tests.CtgTest">
+        <test-method signature="cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="cotangentTest" data-provider="cotangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.642093]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 1.0; did not expect to find [0.642093] but found [0.7615941559557649]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 1.0; did not expect to find [0.642093] but found [0.7615941559557649]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="cotangentTest" data-provider="cotangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.295846]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 360.0; did not expect to find [-0.295846] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 360.0; did not expect to find [-0.295846] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="cotangentTest" data-provider="cotangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.572673]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -12.0; did not expect to find [1.572673] but found [-0.9999999999244973]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -12.0; did not expect to find [1.572673] but found [-0.9999999999244973]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="cotangentTest" data-provider="cotangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 0.0; did not expect to find [Infinity] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [Infinity] but found [0.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentTest -->
+        <test-method signature="cotangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="cotangentTest" data-provider="cotangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.295846]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -360.0; did not expect to find [0.295846] but found [-1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [0.295846] but found [-1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CtgTest@306cf3ea]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.CtgTest -->
+      <class name="com.epam.calculator.tests.SinTest">
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[359]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.7568221986283603]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.8011526357338304]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.5063656411097588]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.8414709848078965]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-243]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.8900093488562771]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.SinTest@2beee7ff]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="sineValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.9589157234143065]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+      </class> <!-- com.epam.calculator.tests.SinTest -->
+      <class name="com.epam.calculator.tests.TgTest">
+        <test-method signature="tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="tangentTest" data-provider="tangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5574077246549023]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 1.0; did not expect to find [1.5574077246549023] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 1.0; did not expect to find [1.5574077246549023] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="tangentTest" data-provider="tangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.380140413960958]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 360.0; did not expect to find [-3.380140413960958] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 360.0; did not expect to find [-3.380140413960958] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="tangentTest" data-provider="tangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.6358599286615808]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -12.0; did not expect to find [0.6358599286615808] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -12.0; did not expect to find [0.6358599286615808] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="tangentTest" data-provider="tangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 0.0; did not expect to find [0.0] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [0.0] but found [NaN]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentTest -->
+        <test-method signature="tangentTest(double, double)[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="tangentTest" data-provider="tangentValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.380140413960958]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -360.0; did not expect to find [3.380140413960958] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [3.380140413960958] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.TgTest@5136d012]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.TgTest -->
+      <class name="com.epam.calculator.tests.CosTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 0.0; did not expect to find [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [1.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.141592653589793]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 3.141592653589793; did not expect to find [-1.0] but found [1.2246467991473532E-16]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 3.141592653589793; did not expect to find [-1.0] but found [1.2246467991473532E-16]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[359]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.6536208072447929]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 359.0; did not expect to find [0.6536208072447929] but found [0.7568221986283603]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 359.0; did not expect to find [0.6536208072447929] but found [0.7568221986283603]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.5984600690578581]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 180.0; did not expect to find [-0.5984600690578581] but found [-0.8011526357338304]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 180.0; did not expect to find [-0.5984600690578581] but found [-0.8011526357338304]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.8623188722876839]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was 100.0; did not expect to find [0.8623188722876839] but found [-0.5063656411097588]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was 100.0; did not expect to find [0.8623188722876839] but found [-0.5063656411097588]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5403023058681398]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -1.0; did not expect to find [0.5403023058681398] but found [-0.8414709848078965]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -1.0; did not expect to find [0.5403023058681398] but found [-0.8414709848078965]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-243]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.4559422758951242]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -243.0; did not expect to find [-0.4559422758951242] but found [0.8900093488562771]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -243.0; did not expect to find [-0.4559422758951242] but found [0.8900093488562771]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cosinusTest(double, double)[pri:0, instance:com.epam.calculator.tests.CosTest@1bb266b3]" started-at="2022-09-26T12:36:27 EEST" name="cosinusTest" data-provider="cosinusValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.2836910914865273]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Number to evaluate was -360.0; did not expect to find [-0.2836910914865273] but found [-0.9589157234143065]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [-0.2836910914865273] but found [-0.9589157234143065]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosinusTest -->
+      </class> <!-- com.epam.calculator.tests.CosTest -->
+    </test> <!-- Trigonometric Functions -->
+    <test started-at="2022-09-26T12:36:27 EEST" name="Basic Math Operations" finished-at="2022-09-26T12:36:28 EEST" duration-ms="34">
+      <class name="com.epam.calculator.tests.SubWithLongTest">
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-33425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-17643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method signature="subWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithLongTest@d6e7bab]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.SubWithLongTest -->
+      <class name="com.epam.calculator.tests.DivWithDoubleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.875]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-453.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.03502095742333995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method signature="divWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="divWithDoubleTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithDoubleTest@13b13b5d]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.DivWithDoubleTest -->
+      <class name="com.epam.calculator.tests.SubWithDoubleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method signature="subWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="subWithDoubleTest" data-provider="subtractionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SubWithDoubleTest@3315d2d7]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.SubWithDoubleTest -->
+      <class name="com.epam.calculator.tests.SumWithLongTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-17643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.SumWithLongTest@55b53d44]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7891]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-33425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+      </class> <!-- com.epam.calculator.tests.SumWithLongTest -->
+      <class name="com.epam.calculator.tests.DivWithLongTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15875]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-4533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.DivWithLongTest@2892dae4]" started-at="2022-09-26T12:36:27 EEST" name="divWithLongTest" data-provider="divisionValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divWithLongTest -->
+      </class> <!-- com.epam.calculator.tests.DivWithLongTest -->
+      <class name="com.epam.calculator.tests.MultWithLongTest">
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:27 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[763]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14675542]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-77823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5657]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[440244711]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-763]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-14675542]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithLongTest(long, long, long)[pri:0, instance:com.epam.calculator.tests.MultWithLongTest@29647f75]" started-at="2022-09-26T12:36:28 EEST" name="multWithLongTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-77823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5657]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-440244711]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithLongTest -->
+      </class> <!-- com.epam.calculator.tests.MultWithLongTest -->
+      <class name="com.epam.calculator.tests.MultWithDoubleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19234.7457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[763.99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.4695153367343E7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiplicand was 19234.7457, multiplier was 763.99; did not expect to find [1.4695153367343E7] but found [1.4695153E7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiplicand was 19234.7457, multiplier was 763.99; did not expect to find [1.4695153367343E7] but found [1.4695153E7]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-77823.33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5657.44]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4028082007519996E8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiplicand was -77823.33, multiplier was -5657.44; did not expect to find [4.4028082007519996E8] but found [4.4028082E8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiplicand was -77823.33, multiplier was -5657.44; did not expect to find [4.4028082007519996E8] but found [4.4028082E8]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:27 EEST" name="setUp" finished-at="2022-09-26T12:36:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:28 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19234.7457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-763.99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.4695153367343E7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiplicand was 19234.7457, multiplier was -763.99; did not expect to find [-1.4695153367343E7] but found [-1.4695154E7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiplicand was 19234.7457, multiplier was -763.99; did not expect to find [-1.4695153367343E7] but found [-1.4695154E7]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method signature="multWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:28 EEST" name="multWithDoubleTest" data-provider="multiplicationValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-77823.33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5657.44]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4.4028082007519996E8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiplicand was -77823.33, multiplier was 5657.44; did not expect to find [-4.4028082007519996E8] but found [-4.40280821E8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiplicand was -77823.33, multiplier was 5657.44; did not expect to find [-4.4028082007519996E8] but found [-4.40280821E8]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.MultWithDoubleTest@355ce81c]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.MultWithDoubleTest -->
+      <class name="com.epam.calculator.tests.SumWithDoubleTest">
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method signature="sumWithDoubleTest(double, double, double)[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="sumWithDoubleTest" data-provider="additionValues" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumWithDoubleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.calculator.tests.SumWithDoubleTest@5fa07e12]" started-at="2022-09-26T12:36:28 EEST" name="setUp" finished-at="2022-09-26T12:36:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.epam.calculator.tests.SumWithDoubleTest -->
+    </test> <!-- Basic Math Operations -->
+  </suite> <!-- Calculator Full Test Suite -->
+</testng-results>
