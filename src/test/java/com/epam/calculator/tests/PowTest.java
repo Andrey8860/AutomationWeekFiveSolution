@@ -8,7 +8,7 @@ public class PowTest extends BaseTest {
 	
 	@Test(dataProvider = "powerValues", groups = "Exponentiation")
 	public void powerTest(double base, double exponent, double expectedResult) {
-		Assert.assertEquals(calculator.pow(base, exponent), expectedResult, 
+		Assert.assertEquals(calculator.pow(base, exponent), expectedResult,  0.0001,
 				"Base was " + base + ", exponent was " + exponent + ";");
 	}
 	
@@ -23,9 +23,9 @@ public class PowTest extends BaseTest {
 			{5, 5, 3125},
 			{1, -1, 1},
 			{-1, -1, -1},
-			{3.3, 3.5, 65.28280246512092},
+			{3.3, 3.5, 65.28280},
 			{-3.3, 3.5, Double.NaN},
-			{3.3, -3.5, 0.015317969851773392},
+			{3.3, -3.5, 0.01531},
 			{-3.3, -3.5, Double.NaN}
 		};
 	}

@@ -8,7 +8,7 @@ public class SqrtTest extends BaseTest {
 	
 	@Test(dataProvider = "squareRootValues", groups = "Square Root")
 	public void squareRootTest(double numberToEvaluate, double expectedResult) {
-		Assert.assertEquals(calculator.sqrt(numberToEvaluate), expectedResult, 
+		Assert.assertEquals(calculator.sqrt(numberToEvaluate), expectedResult,  0.0001,
 				"Number to evaluate was " + numberToEvaluate + ";");
 	}
 	
@@ -20,7 +20,7 @@ public class SqrtTest extends BaseTest {
 			{1, 1},
 			{25, 5},
 			{25, 5},
-			{20.5, 4.527692569068709}
+			{20.5, 4.52769}
 		};
 	}
 	

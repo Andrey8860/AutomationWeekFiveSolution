@@ -8,278 +8,180 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Calculator Full Test Suite</th></tr>
-<tr><td><a href="#t0">Positive / Negative Boolean Method</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">79</td><td>Base Test, Positive / Negative Boolean Methods</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Exponentiation</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">29</td><td>Base Test, Exponentiation</td><td></td></tr>
-<tr><td><a href="#t2">Square Root</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11</td><td>Square Root, Base Test</td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Trigonometric Functions</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">18</td><td class="num">26</td><td>Base Test, Trigonometric Functions</td><td></td></tr>
-<tr><td><a href="#t4">Basic Math Operations</a></td><td class="num">62</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">34</td><td>Base Test, Basic Math Operations</td><td></td></tr>
-<tr><th>Total</th><th class="num">91</th><th class="num">0</th><th class="num">0</th><th class="num attn">28</th><th class="num">179</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">50</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Calculator Full Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Positive / Negative Boolean Method &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.epam.calculator.tests.IsPositiveTest</td><td><a href="#m0">isPositiveTest</a></td><td rowspan="1">1664184987743</td><td rowspan="1">3</td></tr><tr><th colspan="4">Positive / Negative Boolean Method &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.epam.calculator.tests.IsNegativeTest</td><td><a href="#m1">isNegativeTest</a></td><td rowspan="5">1664184987743</td><td rowspan="5">3</td></tr><tr class="passedeven"><td><a href="#m2">isNegativeTest</a></td></tr><tr class="passedeven"><td><a href="#m3">isNegativeTest</a></td></tr><tr class="passedeven"><td><a href="#m4">isNegativeTest</a></td></tr><tr class="passedeven"><td><a href="#m5">isNegativeTest</a></td></tr><tr class="passedodd"><td rowspan="4">com.epam.calculator.tests.IsPositiveTest</td><td><a href="#m6">isPositiveTest</a></td><td rowspan="4">1664184987757</td><td rowspan="4">4</td></tr><tr class="passedodd"><td><a href="#m7">isPositiveTest</a></td></tr><tr class="passedodd"><td><a href="#m8">isPositiveTest</a></td></tr><tr class="passedodd"><td><a href="#m9">isPositiveTest</a></td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Exponentiation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.epam.calculator.tests.PowTest</td><td><a href="#m10">powerTest</a></td><td rowspan="4">1664184987863</td><td rowspan="4">1</td></tr><tr class="failedeven"><td><a href="#m11">powerTest</a></td></tr><tr class="failedeven"><td><a href="#m12">powerTest</a></td></tr><tr class="failedeven"><td><a href="#m13">powerTest</a></td></tr><tr><th colspan="4">Exponentiation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.epam.calculator.tests.PowTest</td><td><a href="#m14">powerTest</a></td><td rowspan="8">1664184987851</td><td rowspan="8">1</td></tr><tr class="passedeven"><td><a href="#m15">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m16">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m17">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m18">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m19">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m20">powerTest</a></td></tr><tr class="passedeven"><td><a href="#m21">powerTest</a></td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Square Root &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.epam.calculator.tests.SqrtTest</td><td><a href="#m22">squareRootTest</a></td><td rowspan="1">1664184987903</td><td rowspan="1">1</td></tr><tr><th colspan="4">Square Root &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.epam.calculator.tests.SqrtTest</td><td><a href="#m23">squareRootTest</a></td><td rowspan="5">1664184987907</td><td rowspan="5">0</td></tr><tr class="passedeven"><td><a href="#m24">squareRootTest</a></td></tr><tr class="passedeven"><td><a href="#m25">squareRootTest</a></td></tr><tr class="passedeven"><td><a href="#m26">squareRootTest</a></td></tr><tr class="passedeven"><td><a href="#m27">squareRootTest</a></td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Trigonometric Functions &#8212; failed</th></tr><tr class="failedeven"><td rowspan="8">com.epam.calculator.tests.CosTest</td><td><a href="#m28">cosinusTest</a></td><td rowspan="8">1664184987932</td><td rowspan="8">1</td></tr><tr class="failedeven"><td><a href="#m29">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m30">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m31">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m32">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m33">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m34">cosinusTest</a></td></tr><tr class="failedeven"><td><a href="#m35">cosinusTest</a></td></tr><tr class="failedodd"><td rowspan="5">com.epam.calculator.tests.CtgTest</td><td><a href="#m36">cotangentTest</a></td><td rowspan="5">1664184987936</td><td rowspan="5">1</td></tr><tr class="failedodd"><td><a href="#m37">cotangentTest</a></td></tr><tr class="failedodd"><td><a href="#m38">cotangentTest</a></td></tr><tr class="failedodd"><td><a href="#m39">cotangentTest</a></td></tr><tr class="failedodd"><td><a href="#m40">cotangentTest</a></td></tr><tr class="failedeven"><td rowspan="5">com.epam.calculator.tests.TgTest</td><td><a href="#m41">tangentTest</a></td><td rowspan="5">1664184987947</td><td rowspan="5">1</td></tr><tr class="failedeven"><td><a href="#m42">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m43">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m44">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m45">tangentTest</a></td></tr><tr><th colspan="4">Trigonometric Functions &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.epam.calculator.tests.SinTest</td><td><a href="#m46">cosinusTest</a></td><td rowspan="7">1664184987947</td><td rowspan="7">0</td></tr><tr class="passedeven"><td><a href="#m47">cosinusTest</a></td></tr><tr class="passedeven"><td><a href="#m48">cosinusTest</a></td></tr><tr class="passedeven"><td><a href="#m49">cosinusTest</a></td></tr><tr class="passedeven"><td><a href="#m50">cosinusTest</a></td></tr><tr class="passedeven"><td><a href="#m51">cosinusTest</a></td></tr><tr class="passedeven"><td><a href="#m52">cosinusTest</a></td></tr></tbody>
-<tbody id="t4"><tr><th colspan="4">Basic Math Operations &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.epam.calculator.tests.MultWithDoubleTest</td><td><a href="#m53">multWithDoubleTest</a></td><td rowspan="4">1664184987999</td><td rowspan="4">0</td></tr><tr class="failedeven"><td><a href="#m54">multWithDoubleTest</a></td></tr><tr class="failedeven"><td><a href="#m55">multWithDoubleTest</a></td></tr><tr class="failedeven"><td><a href="#m56">multWithDoubleTest</a></td></tr><tr><th colspan="4">Basic Math Operations &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.epam.calculator.tests.DivWithDoubleTest</td><td><a href="#m57">divWithDoubleTest</a></td><td rowspan="9">1664184987993</td><td rowspan="9">0</td></tr><tr class="passedeven"><td><a href="#m58">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m59">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m60">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m61">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m62">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m63">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m64">divWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m65">divWithDoubleTest</a></td></tr><tr class="passedodd"><td rowspan="7">com.epam.calculator.tests.DivWithLongTest</td><td><a href="#m66">divWithLongTest</a></td><td rowspan="7">1664184987987</td><td rowspan="7">1</td></tr><tr class="passedodd"><td><a href="#m67">divWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m68">divWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m69">divWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m70">divWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m71">divWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m72">divWithLongTest</a></td></tr><tr class="passedeven"><td rowspan="4">com.epam.calculator.tests.MultWithDoubleTest</td><td><a href="#m73">multWithDoubleTest</a></td><td rowspan="4">1664184987996</td><td rowspan="4">0</td></tr><tr class="passedeven"><td><a href="#m74">multWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m75">multWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m76">multWithDoubleTest</a></td></tr><tr class="passedodd"><td rowspan="8">com.epam.calculator.tests.MultWithLongTest</td><td><a href="#m77">multWithLongTest</a></td><td rowspan="8">1664184988004</td><td rowspan="8">0</td></tr><tr class="passedodd"><td><a href="#m78">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m79">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m80">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m81">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m82">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m83">multWithLongTest</a></td></tr><tr class="passedodd"><td><a href="#m84">multWithLongTest</a></td></tr><tr class="passedeven"><td rowspan="9">com.epam.calculator.tests.SubWithDoubleTest</td><td><a href="#m85">subWithDoubleTest</a></td><td rowspan="9">1664184988005</td><td rowspan="9">0</td></tr><tr class="passedeven"><td><a href="#m86">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m87">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m88">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m89">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m90">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m91">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m92">subWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m93">subWithDoubleTest</a></td></tr><tr class="passedodd"><td rowspan="9">com.epam.calculator.tests.SubWithLongTest</td><td><a href="#m94">subWithDoubleTest</a></td><td rowspan="9">1664184988008</td><td rowspan="9">0</td></tr><tr class="passedodd"><td><a href="#m95">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m96">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m97">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m98">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m99">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m100">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m101">subWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m102">subWithDoubleTest</a></td></tr><tr class="passedeven"><td rowspan="8">com.epam.calculator.tests.SumWithDoubleTest</td><td><a href="#m103">sumWithDoubleTest</a></td><td rowspan="8">1664184988014</td><td rowspan="8">0</td></tr><tr class="passedeven"><td><a href="#m104">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m105">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m106">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m107">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m108">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m109">sumWithDoubleTest</a></td></tr><tr class="passedeven"><td><a href="#m110">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td rowspan="8">com.epam.calculator.tests.SumWithLongTest</td><td><a href="#m111">sumWithDoubleTest</a></td><td rowspan="8">1664184988014</td><td rowspan="8">0</td></tr><tr class="passedodd"><td><a href="#m112">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m113">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m114">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m115">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m116">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m117">sumWithDoubleTest</a></td></tr><tr class="passedodd"><td><a href="#m118">sumWithDoubleTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.epam.calculator.tests.TgTest</td><td><a href="#m0">tangentTest</a></td><td rowspan="5">1664269386841</td><td rowspan="5">1</td></tr><tr class="failedeven"><td><a href="#m1">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m2">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m3">tangentTest</a></td></tr><tr class="failedeven"><td><a href="#m4">tangentTest</a></td></tr></tbody>
 </table>
-<h2>Positive / Negative Boolean Method</h2><h3 id="m0">com.epam.calculator.tests.IsPositiveTest#isPositiveTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>true</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to check if it is Positive: 0; expected [true] but found [false]
-	at com.epam.calculator.tests.IsPositiveTest.isPositiveTest(IsPositiveTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.epam.calculator.tests.IsNegativeTest#isNegativeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.epam.calculator.tests.IsNegativeTest#isNegativeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.epam.calculator.tests.IsNegativeTest#isNegativeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>9223372036854775807</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.epam.calculator.tests.IsNegativeTest#isNegativeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.epam.calculator.tests.IsNegativeTest#isNegativeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-9223372036854775808</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.epam.calculator.tests.IsPositiveTest#isPositiveTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.epam.calculator.tests.IsPositiveTest#isPositiveTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.epam.calculator.tests.IsPositiveTest#isPositiveTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-9223372036854775808</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.epam.calculator.tests.IsPositiveTest#isPositiveTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>9223372036854775807</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Exponentiation</h2><h3 id="m10">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>3.3</td><td>-3.5</td><td>0.015317969851773392</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Base was 3.3, exponent was -3.5; did not expect to find [0.015317969851773392] but found [0.008432264881050257]
-	at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-3.3</td><td>-3.5</td><td>NaN</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Base was -3.3, exponent was -3.5; did not expect to find [NaN] but found [0.008432264881050257]
-	at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>3.3</td><td>3.5</td><td>65.28280246512092</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Base was 3.3, exponent was 3.5; did not expect to find [65.28280246512092] but found [35.937]
-	at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-3.3</td><td>3.5</td><td>NaN</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Base was -3.3, exponent was 3.5; did not expect to find [NaN] but found [-35.937]
-	at com.epam.calculator.tests.PowTest.powerTest(PowTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-5</td><td>5</td><td>-3125</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>1</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>-1</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>-1</td><td>-1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">com.epam.calculator.tests.PowTest#powerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>5</td><td>3125</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Square Root</h2><h3 id="m22">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1</td><td>NaN</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -1.0; did not expect to find [NaN] but found [1.0]
-	at com.epam.calculator.tests.SqrtTest.squareRootTest(SqrtTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>25</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>25</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m26">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>20.5</td><td>4.527692569068709</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m27">com.epam.calculator.tests.SqrtTest#squareRootTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Trigonometric Functions</h2><h3 id="m28">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [1.0] but found [0.0]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m29">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>180</td><td>-0.5984600690578581</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 180.0; did not expect to find [-0.5984600690578581] but found [-0.8011526357338304]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m30">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1</td><td>0.5403023058681398</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -1.0; did not expect to find [0.5403023058681398] but found [-0.8414709848078965]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m31">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-243</td><td>-0.4559422758951242</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -243.0; did not expect to find [-0.4559422758951242] but found [0.8900093488562771]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m32">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-360</td><td>-0.2836910914865273</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [-0.2836910914865273] but found [-0.9589157234143065]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m33">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>359</td><td>0.6536208072447929</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 359.0; did not expect to find [0.6536208072447929] but found [0.7568221986283603]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m34">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3.141592653589793</td><td>-1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 3.141592653589793; did not expect to find [-1.0] but found [1.2246467991473532E-16]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m35">com.epam.calculator.tests.CosTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>100</td><td>0.8623188722876839</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 100.0; did not expect to find [0.8623188722876839] but found [-0.5063656411097588]
-	at com.epam.calculator.tests.CosTest.cosinusTest(CosTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m36">com.epam.calculator.tests.CtgTest#cotangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-12</td><td>1.572673</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -12.0; did not expect to find [1.572673] but found [-0.9999999999244973]
-	at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m37">com.epam.calculator.tests.CtgTest#cotangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>360</td><td>-0.295846</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 360.0; did not expect to find [-0.295846] but found [1.0]
-	at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m38">com.epam.calculator.tests.CtgTest#cotangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-360</td><td>0.295846</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [0.295846] but found [-1.0]
-	at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m39">com.epam.calculator.tests.CtgTest#cotangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>Infinity</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [Infinity] but found [0.0]
-	at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m40">com.epam.calculator.tests.CtgTest#cotangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>0.642093</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 1.0; did not expect to find [0.642093] but found [0.7615941559557649]
-	at com.epam.calculator.tests.CtgTest.cotangentTest(CtgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m41">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>1.5574077246549023</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 1.0; did not expect to find [1.5574077246549023] but found [1.0]
+<h2>Default test</h2><h3 id="m0">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-360</td><td>3.380140413960958</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [3.380140413960958] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEquals(Assert.java:610)
 	at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m42">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-12</td><td>0.6358599286615808</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -12.0; did not expect to find [0.6358599286615808] but found [1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>1.5574077246549023</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 1.0; did not expect to find [1.5574077246549023] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEquals(Assert.java:610)
 	at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m43">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [0.0] but found [NaN]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 0.0; did not expect to find [0.0] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEquals(Assert.java:610)
 	at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m44">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-360</td><td>3.380140413960958</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -360.0; did not expect to find [3.380140413960958] but found [1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-12</td><td>0.6358599286615808</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was -12.0; did not expect to find [0.6358599286615808] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEquals(Assert.java:610)
 	at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m45">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>360</td><td>-3.380140413960958</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 360.0; did not expect to find [-3.380140413960958] but found [1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.epam.calculator.tests.TgTest#tangentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>360</td><td>-3.380140413960958</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Number to evaluate was 360.0; did not expect to find [-3.380140413960958] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEquals(Assert.java:610)
 	at com.epam.calculator.tests.TgTest.tangentTest(TgTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m46">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>100</td><td>-0.5063656411097588</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m47">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-243</td><td>0.8900093488562771</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m48">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-360</td><td>-0.9589157234143065</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m49">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>180</td><td>-0.8011526357338304</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m50">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1</td><td>-0.8414709848078965</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m51">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m52">com.epam.calculator.tests.SinTest#cosinusTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>359</td><td>0.7568221986283603</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Basic Math Operations</h2><h3 id="m53">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-77823.33</td><td>-5657.44</td><td>4.4028082007519996E8</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Multiplicand was -77823.33, multiplier was -5657.44; did not expect to find [4.4028082007519996E8] but found [4.4028082E8]
-	at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m54">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-77823.33</td><td>5657.44</td><td>-4.4028082007519996E8</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Multiplicand was -77823.33, multiplier was 5657.44; did not expect to find [-4.4028082007519996E8] but found [-4.40280821E8]
-	at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m55">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>19234.7457</td><td>763.99</td><td>1.4695153367343E7</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Multiplicand was 19234.7457, multiplier was 763.99; did not expect to find [1.4695153367343E7] but found [1.4695153E7]
-	at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m56">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>19234.7457</td><td>-763.99</td><td>-1.4695153367343E7</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Multiplicand was 19234.7457, multiplier was -763.99; did not expect to find [-1.4695153367343E7] but found [-1.4695154E7]
-	at com.epam.calculator.tests.MultWithDoubleTest.multWithDoubleTest(MultWithDoubleTest.java:11)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m57">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>150</td><td>-10</td><td>-15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m58">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>10</td><td>0</td><td>Infinity</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m59">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-150</td><td>-10</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m60">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-333</td><td>-333</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m61">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>NaN</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m62">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>150</td><td>10</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m63">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>15.875</td><td>-453.3</td><td>-0.03502095742333995</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m64">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-10</td><td>0</td><td>-Infinity</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m65">com.epam.calculator.tests.DivWithDoubleTest#divWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-150</td><td>10</td><td>-15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m66">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m67">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>150</td><td>10</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m68">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>15875</td><td>-4533</td><td>-3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m69">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-333</td><td>-333</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m70">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-150</td><td>10</td><td>-15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m71">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-150</td><td>-10</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m72">com.epam.calculator.tests.DivWithLongTest#divWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>150</td><td>-10</td><td>-15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m73">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>30</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m74">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>20</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m75">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>5</td><td>25</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m76">com.epam.calculator.tests.MultWithDoubleTest#multWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m77">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>19234</td><td>-763</td><td>-14675542</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m78">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m79">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>19234</td><td>763</td><td>14675542</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m80">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>5</td><td>25</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m81">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-77823</td><td>5657</td><td>-440244711</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m82">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>20</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m83">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>30</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m84">com.epam.calculator.tests.MultWithLongTest#multWithLongTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-77823</td><td>-5657</td><td>440244711</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m85">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m86">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25.5</td><td>-5.3</td><td>30.8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m87">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>1</td><td>-2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m88">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>-1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m89">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25.5</td><td>-5.3</td><td>-20.2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m90">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>1</td><td>-1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m91">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25.5</td><td>5.3</td><td>-30.8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m92">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m93">com.epam.calculator.tests.SubWithDoubleTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25.5</td><td>5.3</td><td>20.2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m94">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>1</td><td>-2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m95">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m96">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>1</td><td>-1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m97">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25534</td><td>-7891</td><td>33425</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m98">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m99">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25534</td><td>-7891</td><td>-17643</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m100">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25534</td><td>7891</td><td>-33425</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m101">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25534</td><td>7891</td><td>17643</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m102">com.epam.calculator.tests.SubWithLongTest#subWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>-1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m103">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>-1</td><td>-2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m104">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25.5</td><td>-5.3</td><td>20.2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m105">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m106">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m107">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25.5</td><td>-5.3</td><td>-30.8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m108">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25.5</td><td>5.3</td><td>30.8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m109">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m110">com.epam.calculator.tests.SumWithDoubleTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25.5</td><td>5.3</td><td>-20.2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m111">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m112">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25534</td><td>-7891</td><td>17643</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m113">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>-1</td><td>-2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m114">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25534</td><td>7891</td><td>-17643</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m115">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>1</td><td>0</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m116">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>25534</td><td>7891</td><td>33425</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m117">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-25534</td><td>-7891</td><td>-33425</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m118">com.epam.calculator.tests.SumWithLongTest#sumWithDoubleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-1</td><td>1</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

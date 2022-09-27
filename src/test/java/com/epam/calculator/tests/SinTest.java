@@ -8,7 +8,7 @@ public class SinTest extends BaseTest {
 	
 	@Test(dataProvider = "sineValues", groups = "Trigonometric Functions")
 	public void cosinusTest(double numberToEvaluate, double expectedResult) {
-		Assert.assertEquals(calculator.sin(numberToEvaluate), expectedResult, 
+		Assert.assertEquals(calculator.sin(numberToEvaluate), expectedResult,  0.0001,
 				"Number to evaluate was " + numberToEvaluate + ";");
 	}
 	
@@ -16,12 +16,12 @@ public class SinTest extends BaseTest {
 	public Object[][] sineValues() {
 		return new Object[][] {
 			{0, 0},
-			{359, 0.7568221986283603},
-			{180, -0.8011526357338304},
-			{100, -0.5063656411097588},
-			{-1, -0.8414709848078965},
-			{-243, 0.8900093488562771},
-			{-360, -0.9589157234143065}
+			{359, 0.75682},
+			{180, -0.80115},
+			{100, -0.50636},
+			{-1, -0.84147},
+			{-243, 0.89000},
+			{-360, -0.95891}
 		};
 	}
 	

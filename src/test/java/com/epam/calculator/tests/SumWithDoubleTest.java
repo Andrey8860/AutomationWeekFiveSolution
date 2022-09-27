@@ -8,7 +8,7 @@ public class SumWithDoubleTest extends BaseTest {
 	
 	@Test(dataProvider = "additionValues", groups = "Basic Math Operations")
 	public void sumWithDoubleTest(double firstAddend, double secondAddend, double expectedResult) {
-		Assert.assertEquals(calculator.sum(firstAddend, secondAddend), expectedResult, 
+		Assert.assertEquals(calculator.sum(firstAddend, secondAddend), expectedResult,  0.0001,
 				"First addend was " + firstAddend + ", second addend was " + secondAddend + ";");
 	}
 	

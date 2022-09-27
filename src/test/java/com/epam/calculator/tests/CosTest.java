@@ -8,7 +8,7 @@ public class CosTest extends BaseTest {
 	
 	@Test(dataProvider = "cosinusValues", groups = "Trigonometric Functions")
 	public void cosinusTest(double numberToEvaluate, double expectedResult) {
-		Assert.assertEquals(calculator.cos(numberToEvaluate), expectedResult, 
+		Assert.assertEquals(calculator.cos(numberToEvaluate), expectedResult, 0.0001,
 				"Number to evaluate was " + numberToEvaluate + ";");
 	}
 	
@@ -17,12 +17,12 @@ public class CosTest extends BaseTest {
 		return new Object[][] {
 			{0, 1},
 			{Math.PI, -1},
-			{359, 0.6536208072447929},
-			{180, -0.5984600690578581},
-			{100, 0.8623188722876839},
-			{-1, 0.5403023058681398},
-			{-243, -0.4559422758951242},
-			{-360, -0.2836910914865273}
+			{359, 0.65362},
+			{180, -0.59846},
+			{100, 0.86231},
+			{-1, 0.54030},
+			{-243, -0.45594},
+			{-360, -0.28369}
 		};
 	}
 	

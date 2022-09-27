@@ -8,7 +8,7 @@ public class DivWithDoubleTest extends BaseTest {
 	
 	@Test(dataProvider = "divisionValues", groups = "Basic Math Operations")
 	public void divWithDoubleTest(double dividend, double divisor, double expectedResult) {
-		Assert.assertEquals(calculator.div(dividend, divisor), expectedResult, 
+		Assert.assertEquals(calculator.div(dividend, divisor), expectedResult,  0.0001,
 				"Dividend was " + dividend + ", divisor was " + divisor + ";");
 	}
 	

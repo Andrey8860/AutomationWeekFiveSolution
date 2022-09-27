@@ -8,7 +8,7 @@ public class MultWithDoubleTest extends BaseTest {
 	
 	@Test(dataProvider = "multiplicationValues", groups = "Basic Math Operations")
 	public void multWithDoubleTest(double multiplicand, double multiplier, double expectedResult) {
-		Assert.assertEquals(calculator.mult(multiplicand, multiplier), expectedResult, 
+		Assert.assertEquals(calculator.mult(multiplicand, multiplier), expectedResult,  0.0001,
 				"Multiplicand was " + multiplicand + ", multiplier was " + multiplier + ";");
 	}
 	

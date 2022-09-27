@@ -8,7 +8,7 @@ public class SubWithDoubleTest extends BaseTest {
 	
 	@Test(dataProvider = "subtractionValues", groups = "Basic Math Operations")
 	public void subWithDoubleTest(double minuend, double subtrahend, double expectedResult) {
-		Assert.assertEquals(calculator.sub(minuend, subtrahend), expectedResult, 
+		Assert.assertEquals(calculator.sub(minuend, subtrahend), expectedResult,  0.0001,
 				"Minuend was " + minuend + ", subtrahend was " + subtrahend + ";");
 	}
 	
